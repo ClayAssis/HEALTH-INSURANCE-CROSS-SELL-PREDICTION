@@ -3,7 +3,7 @@
 This project aims to order a potential client list by propensity score.
 
 <div align="center">
-    <img src="https://images.unsplash.com/photo-1470305585628-a7d2cb18efa2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" width='100%' height='320' alt="image">
+    <img src="/home/ub/Documents/github/HEALTH-INSURANCE-CROSS-SELL-PREDICTION/reports/figures/1598025403319.png" width='100%' height='320' alt="image">
 </div>
 
 ## 1.0 Business Problem
