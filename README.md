@@ -9,15 +9,13 @@
 ---
 # 1.0 Business Problem
 
-<<<<<<< HEAD
 Insurance All is a company that provides Vehicle insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: Vehicle insurance.
 
 As with Vehicle insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
-=======
+
 Insurance All is a company that provides Health Insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: Vehicle Insurance.
 
 As with health insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
->>>>>>> 0d38865e6f61998ec9d16e72934a4d77fc7c8417
 
 Insurance All conducted a survey of about 380,000 customers about their interest in joining a new Vehicle insurance product last year. All customers expressed interest or not in purchasing Vehicle insurance and these responses were saved in a database along with other customer attributes.
 
