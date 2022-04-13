@@ -1,4 +1,4 @@
-# Health Insurance Cross-Sell 
+# Vehicle Insurance Cross-Sell 
 
 <div align="center">
     <img src="reports/figures/1598025403319.png" width='100%' height='320' alt="image">
@@ -9,9 +9,15 @@
 ---
 # 1.0 Business Problem
 
+<<<<<<< HEAD
+Insurance All is a company that provides Vehicle insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: Vehicle insurance.
+
+As with Vehicle insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
+=======
 Insurance All is a company that provides Health Insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: Vehicle Insurance.
 
 As with health insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
+>>>>>>> 0d38865e6f61998ec9d16e72934a4d77fc7c8417
 
 Insurance All conducted a survey of about 380,000 customers about their interest in joining a new Vehicle insurance product last year. All customers expressed interest or not in purchasing Vehicle insurance and these responses were saved in a database along with other customer attributes.
 
@@ -50,51 +56,51 @@ My solution to solve this problem will be the development of a data science proj
 ### ***HYPOTHESIS CREATION***
 
 **- Customer:**
-* More than 60% of customers who want health insurance are women.
-* Young people account for less than 30% of custumers who want health insurance.
-* The older the customer, greater is the possibility of wanting health insurance.
-* Employers account for more than 75% or more of customers who want health insurance.
-* The high-salary ccustomers are more likely to get health insurance.
+* More than 60% of customers who want Vehicle insurance are women.
+* Young people account for less than 30% of custumers who want Vehicle insurance.
+* The older the customer, greater is the possibility of wanting Vehicle insurance.
+* Employers account for more than 75% or more of customers who want Vehicle insurance.
+* The high-salary ccustomers are more likely to get Vehicle insurance.
 
 **- Vehicle:**
-* Customers with car insurance are more lilkely to get health insurance.
-60% or more of the customers with two-year-old vehicle are more likely to pay for health insurance.
-* Less than 40% of customers who have damaged the vehicle don't want to get the health insurance.
-* Customers who use the car to work are more likely to get health insurance.
-* Customers with car ticket aren't more likely to get health insurance.
+* Customers with car insurance are more lilkely to get Vehicle insurance.
+60% or more of the customers with two-year-old vehicle are more likely to pay for Vehicle insurance.
+* Less than 40% of customers who have damaged the vehicle don't want to get the Vehicle insurance.
+* Customers who use the car to work are more likely to get Vehicle insurance.
+* Customers with car ticket aren't more likely to get Vehicle insurance.
 Womens is 40% or less of the curstomers with car ticket.
 
 **- Driving License:**  
 * Most customers are licensed to drive.
-* Customers with two or more years licensed to drive are more likely to get health insurance.
+* Customers with two or more years licensed to drive are more likely to get Vehicle insurance.
 * Customers with more one year or more licensed to drive have car ticket.
 60% or more of the curstomers with one or more years of driving lincense have vehicle damages.
 * The older is the vehicle, more likely the customers have a car ticket.
 
 **- Associated:**
-* Older customers are more likely to pay less for the annual health insurance.
-* 70% or more of the customers with car insurance are more likely to get health insurance.
-* Older customers and those which pay more for annual health insurance are more likely to get health insurance.
+* Older customers are more likely to pay less for the annual Vehicle insurance.
+* 70% or more of the customers with car insurance are more likely to get Vehicle insurance.
+* Older customers and those which pay more for annual Vehicle insurance are more likely to get Vehicle insurance.
 * 60% or more of the associated customers don't have car ticket.
 * 70% or less of the associated customers are women.
-* More than 60% of the associated customers are more likely to get health insurance.
-* The more associated, more likely they may get the health insurance.
+* More than 60% of the associated customers are more likely to get Vehicle insurance.
+* The more associated, more likely they may get the Vehicle insurance.
 
 **- Channel of Outreaching:**
 * 60% or more of the customers contacted by email are younger than 40 years.
-* 75% or less of the telefone catacted customers are more likely to get health insurance.
-* The most channel used to contact was the website advertisement for health insurance.
+* 75% or less of the telefone catacted customers are more likely to get Vehicle insurance.
+* The most channel used to contact was the website advertisement for Vehicle insurance.
 * 80% or more of the customers contacted by telefone are older than 60 years old.
 
 **- Selected Hypothesis:**
-* More than 60% of customers who want health insurance are women.
-* Young people account for less than 30% of custumers who want health insurance.
-* The older the customer, greater is the possibility of wanting health insurance.
-* Customers with car insurance are more lilkely to get health insurance.
-* 60% or more of the customers with two-year-old vehicle are more likely to pay for health insurance.
-* Less than 40% of customers who have damaged the vehicle don't want to get the health insurance.
-* Older customers and those which pay more for annual health insurance are more likely to get health insurance.
-* The more associated, more likely they may get the health insurance.
+* More than 60% of customers who want Vehicle insurance are women.
+* Young people account for less than 30% of custumers who want Vehicle insurance.
+* The older the customer, greater is the possibility of wanting Vehicle insurance.
+* Customers with car insurance are more lilkely to get Vehicle insurance.
+* 60% or more of the customers with two-year-old vehicle are more likely to pay for Vehicle insurance.
+* Less than 40% of customers who have damaged the vehicle don't want to get the Vehicle insurance.
+* Older customers and those which pay more for annual Vehicle insurance are more likely to get Vehicle insurance.
+* The more associated, more likely they may get the Vehicle insurance.
 
 **Step 03. Data Filtering:** Data filtering is used to remove columns or rows that are not part of the business. For example, columns with customer ID, hash code or rows with age that does not consist of human age.
 
@@ -115,20 +121,20 @@ Womens is 40% or less of the curstomers with car ticket.
 ---
 # 4.0 Top 3 Data Insights
 
-* #### The older the customer, greater is the possibility of wanting health insurance.
-    **False:** People between 40 and 50 are more interested in having health insurance.
+* #### The older the customer, greater is the possibility of wanting Vehicle insurance.
+    **False:** People between 40 and 50 are more interested in having Vehicle insurance.
 
     ![hypothesis3](reports/figures/hypothesis3_cycle1.png)
 
-* #### Customers with car insurance are more lilkely to get health insurance.
+* #### Customers with car insurance are more lilkely to get Vehicle insurance.
 
-    **False:** Customers without car insurance are more likely to get health insurance. In this database 99.7% of customers are previously insured.
+    **False:** Customers without car insurance are more likely to get Vehicle insurance. In this database 99.7% of customers are previously insured.
 
     ![hypotheis4](reports/figures/hypothesis4_cycle1.png)
 
-* #### Less than 40% of customers who have damaged the vehicle don't want to get the health insurance.
+* #### Less than 40% of customers who have damaged the vehicle don't want to get the Vehicle insurance.
 
-    **False:** Customers who don't want the health insurance and got damaged are about 43.9%.
+    **False:** Customers who don't want the Vehicle insurance and got damaged are about 43.9%.
 
     ![hypothesis6](reports/figures/hypothesis6_cycle1.png)
 
@@ -200,17 +206,17 @@ These graphs below show the accumulative gain and lift curve.
 
 * #### What percentage of customers are interested in purchasing auto insurance? Will the sales team be able to reach them by making 20,000 calls?
 
-    1. The database is based on 46,876 (12.3%) of customers interessed in health insurance and 334,232 (87.7%) of no interested.
+    1. The database is based on 46,876 (12.3%) of customers interessed in Vehicle insurance and 334,232 (87.7%) of no interested.
 
-    1. The model results have shown that the model has the precision of 24.10% (24.14% for a excellent performance or 24.06% for a poor performance). So, using the model it's possible to contact 4,820 (4,828 for a excellent performance or 4,812 for a poor performance) customers interested in health insurance of 20,000 calls. However the recall is about 98.31% (+/- 0.0016).
+    1. The model results have shown that the model has the precision of 24.10% (24.14% for a excellent performance or 24.06% for a poor performance). So, using the model it's possible to contact 4,820 (4,828 for a excellent performance or 4,812 for a poor performance) customers interested in Vehicle insurance of 20,000 calls. However the recall is about 98.31% (+/- 0.0016).
 
 * #### If the sales team's capacity increases to 40,000 calls, what percentage of customers interested in purchasing auto insurance will the sales team be able to contact?
 
-    Increasing to 40,000 calls the model may help the sales team to contact 9,640 (9,656 for a excellent performance or 9,624 for a poor performance) the customers interested in health insurance.
+    Increasing to 40,000 calls the model may help the sales team to contact 9,640 (9,656 for a excellent performance or 9,624 for a poor performance) the customers interested in Vehicle insurance.
 
 * #### How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?
 
-    The model sorted 98.31% (46,084 customers) of the customer interested in 50% of the database with 381,109 customers. Using the model, it's possible to contact 80% of customers interested in health insurance in 155,064 (155,064 for a excellent performance or 155,064 for a poor performance) calls.
+    The model sorted 98.31% (46,084 customers) of the customer interested in 50% of the database with 381,109 customers. Using the model, it's possible to contact 80% of customers interested in Vehicle insurance in 155,064 (155,064 for a excellent performance or 155,064 for a poor performance) calls.
 
 
 ---
