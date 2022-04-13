@@ -9,13 +9,13 @@
 ---
 # 1.0 Business Problem
 
-Insurance All is a company that provides vehicle insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: health insurance.
+Insurance All is a company that provides Health Insurance to its customers and the product team is analyzing the possibility of offering policyholders a new product: Vehicle Insurance.
 
-As with vehicle insurance, customers of this new health insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
+As with health insurance, customers of this new Vehicle insurance plan need to pay an amount annually to Insurance All to obtain an amount insured by the company, intended for the costs of an eventual accident or damage to the vehicle.
 
-Insurance All conducted a survey of about 380,000 customers about their interest in joining a new health insurance product last year. All customers expressed interest or not in purchasing health insurance and these responses were saved in a database along with other customer attributes.
+Insurance All conducted a survey of about 380,000 customers about their interest in joining a new Vehicle insurance product last year. All customers expressed interest or not in purchasing Vehicle insurance and these responses were saved in a database along with other customer attributes.
 
-The product team selected 127 thousand new customers who did not respond to the survey to participate in a campaign, in which they will receive the offer of the new health insurance product. The offer will be made by the sales team through telephone calls.
+The product team selected 127 thousand new customers who did not respond to the survey to participate in a campaign, in which they will receive the offer of the new Vehicle insurance product. The offer will be made by the sales team through telephone calls.
 
 However, the sales team has the capacity to make 20 thousand calls within the campaign period.
 
@@ -31,7 +31,7 @@ The **Cross Sell** may also increase **Average Ticket Price**. This metric is im
 ---
 # 3.0 Solution Strategy
 
-My solution to solve this problem will be the development of a data science project. This project will have a machine learning model which can predict customers that may be interested in health insurance. It'll help the team to selct the best customers that may be interested in health insurance.
+My solution to solve this problem will be the development of a data science project. This project will have a machine learning model which can predict customers that may be interested in Vehicle insurance. It'll help the team to selct the best customers that may be interested in Vehicle insurance.
 
 **Step 01. Data Description:** In this first section the data will be collected and studied. The missing values will be threated or removed. Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard desviation.
 
