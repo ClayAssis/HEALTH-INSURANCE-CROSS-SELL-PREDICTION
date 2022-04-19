@@ -124,7 +124,7 @@ Womens is 40% or less of the curstomers with car ticket.
 
     ![hypothesis3](reports/figures/hypothesis3_cycle1.png)
 
-* #### Customers with car insurance are more lilkely to get Vehicle insurance.
+* #### Customers without car insurance are more lilkely to get Vehicle insurance.
 
     **False:** Customers without car insurance are more likely to get Vehicle insurance. In this database 99.7% of customers are previously insured.
 
